@@ -17,7 +17,7 @@ doraemon 的动态配置告警规则能力，来自相对独立的 rule-engine�
 # 编译
 
 ```cassandraql
-git clone https://github.com/huangwei2013/doraemon.git
+git clone https://github.com/huoji1990/doraemon.git
 cd doraemon
 touch go.sum
 
@@ -30,8 +30,8 @@ make build-ruleengine-image
 ```
 # 额外说明
 ## 另：
-  [这是一个相关项目](https://github.com/huangwei2013/myruleengine),延伸自 doraemon的 rule-engine，用于与 promethues-alertmanager 结合
+  [这是一个相关项目](https://github.com/huoji1990/myruleengine),延伸自 doraemon的 rule-engine，用于与 promethues-alertmanager 结合
   
   
 ## 再另：
-  prometheus 是因为没有动态加载 rule 规则的能力，才有 360 这个项目的生存空间，所以。。。。。参看[这个](https://github.com/huangwei2013/prometheus)，基于prometheus的改造
+  prometheus 是因为没有动态加载 rule 规则的能力，才有 360 这个项目的生存空间，所以。。。。。参看[这个](https://github.com/huoji1990/prometheus)，基于prometheus的改造
